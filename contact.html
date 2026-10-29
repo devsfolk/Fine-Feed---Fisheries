@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Fine Feeds & Fisheries</title>
+  <meta name="description" content="Contact Fine Feeds & Fisheries in Karachi for fish feed orders, pricing, and facility visits.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="container nav">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="Fine Feeds & Fisheries">
+        <span>Fine Feeds & Fisheries</span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+        <a href="gallery.html">Facility</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="contact.html" class="btn btn-primary">Get in touch</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="section-label">Visit us</span>
+      <h1>Come see the line in person.</h1>
+      <p>Fine Feeds & Fisheries is located in Deh Rehri, within Malir's Bin Qasim Town — reachable from Tapu Ibrahim Hydri. Farms and distributors are welcome to arrange a visit.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container contact-grid">
+      <div class="contact-info-card">
+        <h3>Contact & address</h3>
+        <div class="info-row">
+          <div>
+            <strong>Address</strong>
+            <span>NC 26, Deh Rehri, Tapu Ibrahim Hydri, Malir Bin Qasim Town, Karachi</span>
+          </div>
+        </div>
+        <div class="info-row">
+          <div>
+            <strong>Phone</strong>
+            <a href="tel:03233392988">0323-3392988</a>
+          </div>
+        </div>
+        <div class="info-row">
+          <div>
+            <strong>Email</strong>
+            <a href="mailto:finefisheries@gmail.com">finefisheries@gmail.com</a>
+          </div>
+        </div>
+        <div class="info-row">
+          <div>
+            <strong>Hours</strong>
+            <span>Mon – Sat · 8 AM – 6 PM<br>Sun · Closed</span>
+          </div>
+        </div>
+        <div class="info-row">
+          <div>
+            <strong>Contact person</strong>
+            <span>Mr. Faisal — Owner & Director</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <h3 style="font-family:var(--font-display);font-size:1.5rem;margin-bottom:20px;color:var(--earth);">Send a message</h3>
+        <form action="#" method="post" onsubmit="event.preventDefault(); alert('Thank you! Please call or email us directly for the fastest response.');">
+          <div class="form-group">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" required placeholder="Full name">
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" required placeholder="03XX-XXXXXXX">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com">
+          </div>
+          <div class="form-group">
+            <label for="interest">I'm interested in</label>
+            <select id="interest" name="interest">
+              <option value="bulk">Bulk order / pricing</option>
+              <option value="custom">Custom formulation</option>
+              <option value="visit">Facility visit</option>
+              <option value="other">Other enquiry</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell us about your farm, species, or requirements..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;">Send message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="section process">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Getting here</span>
+        <h2>Deh Rehri, Malir Bin Qasim Town.</h2>
+      </div>
+      <div class="process-steps contact-steps">
+        <div class="process-card">
+          <div class="process-num">01</div>
+          <h3>Located off Tapu Ibrahim Hydri</h3>
+          <p>The plant sits within Deh Rehri, in Malir's Bin Qasim Town area of Karachi.</p>
+        </div>
+        <div class="process-card">
+          <div class="process-num">02</div>
+          <h3>Site visits by appointment</h3>
+          <p>Let us know when you'd like to visit so we can plan around production runs.</p>
+        </div>
+        <div class="process-card">
+          <div class="process-num">03</div>
+          <h3>Dispatch & pickup on-site</h3>
+          <p>Bulk and bagged orders can be collected directly from the facility.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="container">
+      <h2>Prefer to call?</h2>
+      <p>Mr. Faisal is available for large orders and custom formulations.</p>
+      <div class="cta-actions">
+        <a href="tel:03233392988" class="btn btn-primary">Call 0323-3392988</a>
+        <a href="mailto:finefisheries@gmail.com" class="btn btn-outline">Email us</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="Logo" style="height:36px;">
+            <span>Fine Feeds & Fisheries</span>
+          </a>
+          <p>Premium fish feed manufacturers based in Karachi, serving aquaculture farms across Pakistan since 2004.</p>
+        </div>
+        <div>
+          <h4>Quick links</h4>
+          <ul>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="gallery.html">Facility</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="tel:03233392988">0323-3392988</a></li>
+            <li><a href="mailto:finefisheries@gmail.com">finefisheries@gmail.com</a></li>
+            <li>NC 26, Deh Rehri, Tapu Ibrahim Hydri, Malir Bin Qasim Town, Karachi</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Hours</h4>
+          <ul>
+            <li>Mon – Sat · 8 AM – 6 PM</li>
+            <li>Sun · Closed</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2004 Fine Feeds & Fisheries. All rights reserved.</span>
+        <span>Karachi, Pakistan</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const header = document.getElementById('header');
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 20);
+    });
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
